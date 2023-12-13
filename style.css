@@ -1,0 +1,262 @@
+/* General styles */
+
+
+/* Overall styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Task entry form */
+  
+  .task-entry-form {
+    margin-bottom: 20px;
+  }
+  
+  #taskName {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #dueDate {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #dueTime {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-add-task {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Checklist */
+  
+  .checklist {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Task item styles */
+  
+  .task-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-status {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .incomplete {
+    color: #ccc;
+  }
+  
+  .complete {
+    color: #007bff;
+  }
+
+  
+  .task-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+--------------------------------------------------------------------------------------
+
+/*
+
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Task entry form */
+  
+/*
+
+  .task-entry-form {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Checklist */
+  
+/*
+
+  .checklist {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .checklist .incomplete {
+    color: #ccc;
+  }
+  
+  .checklist .complete {
+    color: #007bff;
+  }
+
+  .tasksList {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .taskList.highlight {
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+  
+  .taskList .checklist {
+    width: 100px;
+  }
+  
+  .checklist .incomplete {
+    color: #ccc;
+  }
+  
+  .checklist .complete {
+    color: #007bff;
+  }
+  
+

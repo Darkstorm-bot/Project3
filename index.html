@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Your CSS styles go here -->
+
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+  
+    <div class="task-entry-form">
+      <input id="taskName" type="text" placeholder="Task name">
+      <input id="dueDate" type="date" placeholder="Due date">
+      <input id="dueTime" type="time" placeholder="Due time">
+      <button class="btn-add-task" type="submit">Add task</button>
+    </div>
+
+
+    <div class="checklist">
+      <table>
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Due date</th>
+            <th>Due time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="tasksList">
+          <tr>
+            <td>Task 1</td>
+            <td>2023-12-14</td>
+            <td>10:00 AM</td>
+            <td>Incomplete</td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>2023-12-15</td>
+            <td>12:00 PM</td>
+            <td>Complete</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
